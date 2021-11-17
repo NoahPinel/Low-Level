@@ -1,3 +1,4 @@
+// Pin Lay
 int pinNum[] = {7,8,9,10};
 
 void setup()
@@ -10,6 +11,8 @@ void setup()
   }
 }
 
+// Output the binary 
+// set to 15 since this program only uses 4 LED's , 15 is the max u can count to in binary with 4 digits
 void loop()
 {
   byte i = 0;
@@ -21,6 +24,7 @@ void loop()
   }
 }
 
+// actual binary calc
 void binOut(byte num)
 {
   
