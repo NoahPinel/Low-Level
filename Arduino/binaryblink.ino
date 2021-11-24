@@ -32,6 +32,9 @@ void binOut(byte num)
   
   while (i < 4)
   {
+    
+    // if 1 flash LED else none
+    // while i < # of LEDS in the circut
     if (bitRead(num, i)==1)
     {
       digitalWrite(pinNum[i], HIGH);
