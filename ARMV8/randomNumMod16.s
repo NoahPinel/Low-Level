@@ -29,7 +29,7 @@ getRand:
                 //b.eq  exit
 
                 ldr             x0,             =mess1                  // load mess1
-                mov             x1,             x21                             // load the remainder from the calc i.e our random number 1-15
+                mov             x1,             x21                     // load the remainder from the calc i.e our random number 1-15
                 bl              printf
                 //add           x23,    x23,    1
                 //b             loop
