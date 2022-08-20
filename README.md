@@ -1,2 +1,2 @@
 # Low-Level
-6502, ARMV8, C
+6502, ARMV8
